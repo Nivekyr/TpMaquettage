@@ -1,0 +1,57 @@
+/* section  3rd */
+
+
+.bas
+{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(83, 82, 82);
+    padding-top: 30px;
+}
+.div_a form
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+.div_a form input
+{
+margin: 5px;
+width: 30vw;
+height: 4vh;
+background-color: rgb(212, 206, 206);
+font-size: 20px;
+}
+
+.div_a .button{
+    background-color:rgb(142, 25, 64);
+    width: 20vw;
+    color: white;
+    margin-left: 50px;
+    border-style: none;
+}
+.div_b h3{
+color: white;
+text-align: center;
+
+/* ************footer*** */
+
+}
+.div_c
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+}
+.div_c a
+{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-size: 20px;
+}
+footer
+{
+    clear: both;
+}
