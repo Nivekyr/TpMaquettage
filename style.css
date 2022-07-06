@@ -1,57 +1,203 @@
+/************** BODY **************/
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+/************** HEADER **************/
+
+/*NAVBAR*/
+nav {
+    width: 100%;
+    background-color: rgb(7, 0, 140);
+    height: 8vh;
+}
+
+/*CONTAINER NAVBAR DIV*/
+.menuNav__div {
+    margin: auto 0;
+    justify-content: flex-end;
+}
+
+.menuNav {
+    margin: auto 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuNav__logo {
+    width: 3vw;
+}
+
+.menuNav__list {
+    display: flex;
+    list-style: none;
+}
+
+.menuNav__list_link {
+
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.7rem;
+    margin: auto 1vw;
+    text-transform: uppercase;
+}
+
+.menuNav__list_icones {
+    width: 4vh;
+    margin: auto 1vw;
+}
+
+
+/************** FIRST SECTION **************/
+
+/*CONTAINER FIRST SECTION DIV*/
+.firstSection__global_div {
+    display: flex;
+    height: 60vh;
+    background-color: rgb(83, 82, 82);
+    margin: auto;
+}
+
+/*DIV BACKGROUND IMG + TEXT */
+.firstSection__imgBackground_div {
+    background-image: url('img/equipedefrance.jpg');
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 84%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    opacity: 90%;
+    border-radius: 8%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+}
+
+.firstSection__text {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+
+}
+
+/*FLY + VS */
+.firstSection__fly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstSection__fly_img {
+    width: 15vw;
+    opacity: 80%;
+}
+
+.firstSection__fly_text {
+    font-size: 6rem;
+    align-items: center;
+    padding: 0 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+}
+
 /* section  3rd */
 
 
-.bas
-{
+.bas {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: rgb(83, 82, 82);
     padding-top: 30px;
 }
-.div_a form
-{
+
+.div_a form {
     display: flex;
     flex-direction: column;
     margin-top: 23px;
 }
-.div_a form input
-{
-margin: 5px;
-width: 30vw;
-height: 4vh;
-background-color: rgb(212, 206, 206);
-font-size: 20px;
+
+.div_a form input {
+    margin: 5px;
+    width: 30vw;
+    height: 4vh;
+    background-color: rgb(212, 206, 206);
+    font-size: 20px;
 }
 
-.div_a .button{
-    background-color:rgb(142, 25, 64);
+.div_a .button {
+    background-color: rgb(142, 25, 64);
     width: 20vw;
     color: white;
     margin-left: 50px;
     border-style: none;
 }
-.div_b h3{
-color: white;
-text-align: center;
 
-/* ************footer*** */
+.div_b h3 {
+    color: white;
+    text-align: center;
+
+    /* ************footer*** */
 
 }
-.div_c
-{
+
+.div_c {
     background-color: black;
     display: flex;
     justify-content: space-between;
     height: 13vh;
 }
-.div_c a
-{
+
+.div_c a {
     text-decoration: none;
     color: white;
     margin: auto;
     font-size: 20px;
 }
-footer
-{
+
+footer {
     clear: both;
 }
